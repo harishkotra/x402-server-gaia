@@ -1,0 +1,27 @@
+{
+  "name": "create-x402-server",
+  "version": "0.2.0",
+  "description": "Create a new Hono server application",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "create-x402-app": "./index.ts"
+  },
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target node"
+  },
+  "keywords": [
+    "hono",
+    "cli",
+    "server",
+    "template"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
