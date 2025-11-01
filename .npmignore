@@ -1,1 +1,37 @@
+# Environment files
 .env
+.env.*
+!.env.example
+
+# Development
+node_modules/
+*.log
+*.logs
+test-project/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+
+.claude
+.cursor

@@ -1,7 +1,12 @@
 {
-  "name": "template",
+  "name": "x402-gaia-server",
+  "version": "1.0.0",
+  "description": "X402 Protected Gaia Node Server - Monetize your AI inference API",
+  "type": "module",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun"
   },
   "dependencies": {
     "@x402-sovereign/core": "^0.4.0",
@@ -11,5 +16,14 @@
   },
   "devDependencies": {
     "@types/bun": "latest"
-  }
+  },
+  "keywords": [
+    "x402",
+    "gaia",
+    "gaianet",
+    "ai",
+    "payment",
+    "api"
+  ],
+  "license": "MIT"
 }
